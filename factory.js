@@ -9,6 +9,7 @@ for (let i = 1; i <= threshold; i++) {
         title: faker.lorem.sentence(4),
         desc: faker.lorem.lines(),
         city: faker.address.city(),
+        image: faker.image.abstract()
     });
 }
 
