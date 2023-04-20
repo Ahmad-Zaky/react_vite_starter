@@ -1,7 +1,8 @@
 import './App.css'
 
 export default function App() {
-  console.log(fetch("http://localhost:3000/cards"));
+  const base = import.meta.env.VITE_APP_URL;
+
   return (
     <main>
       React ⚛️ + Vite ⚡ + Replit 🌀
