@@ -19,6 +19,7 @@ Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Tem
 ### Faker Server
 
 ```
+cp .env.example .env
 npm install
 npm run generate
 npm run server
